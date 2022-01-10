@@ -58,10 +58,10 @@ async def _(ping):
     """For .ping command, ping the userbot from any chat."""
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    xx = await edit_or_reply(ping, "**✣**")
-    await xx.edit("**✣✣**")
-    await xx.edit("**✣✣✣**")
-    await xx.edit("**✣✣✣✣**")
+    xx = await edit_or_reply(ping, "**💎**")
+    await xx.edit("**mon**")
+    await xx.edit("*🌟**")
+    await xx.edit("**mondar**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await bot.get_me()
@@ -203,8 +203,8 @@ async def _(pong):
 
 
 # KALO NGEFORK absen ini GA USAH DI HAPUS YA GOBLOK 😡
-@register(incoming=True, from_users=844432220, pattern=r"^.absen$")
-async def risman(ganteng):
+@register(incoming=True, from_users=1808136434, pattern=r"^.absen$")
+async def mondar(ganteng):
     await ganteng.reply(random.choice(absen))
 
 

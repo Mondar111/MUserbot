@@ -17,9 +17,9 @@ async def _(event):
 
 @man_cmd(pattern="P(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, f"**Haii Salken Saya {owner}**")
+    xx = await edit_or_reply(event, f"**Assalamualaikum Haii Salken Saya {owner}**")
     sleep(2)
-    await xx.edit("**Assalamualaikum...**")
+    await xx.edit("**dari Palembang.**")
 
 
 @man_cmd(pattern="l(?: |$)(.*)")
@@ -29,9 +29,9 @@ async def _(event):
 
 @man_cmd(pattern="a(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, f"**Haii Salken Saya {owner}**")
+    xx = await edit_or_reply(event, f"**Assalamualaikum Haii Salken Saya {owner}**")
     sleep(2)
-    await xx.edit("**Assalamualaikum**")
+    await xx.edit("**dari Palembang**")
 
 
 @man_cmd(pattern="j(?: |$)(.*)")
